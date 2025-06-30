@@ -633,7 +633,7 @@
 #define RS485DRIVERS_32_63 0xFFFFFFFF
 
 #ifdef USE_RS485
-
+#define USE_XX_XX
 
 #endif
 
