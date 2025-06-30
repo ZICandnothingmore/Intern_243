@@ -1,5 +1,5 @@
 #ifdef USE_RS485
-#ifdef USE_XX_XX
+#ifdef USE_XX_03
 
 #define XSNS_XXX XXX
 #define XRS485_XXX XXX
