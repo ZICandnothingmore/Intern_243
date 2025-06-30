@@ -633,7 +633,9 @@
 #define RS485DRIVERS_32_63 0xFFFFFFFF
 
 #ifdef USE_RS485
-#define USE_XX_XX
+#define USE_XSNS_EPCO01
+#define USE_EP_SO2
+#define USE_O3_GAS_SENSOR
 
 #endif
 
