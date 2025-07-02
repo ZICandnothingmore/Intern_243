@@ -636,7 +636,7 @@
 #define USE_XSNS_EPCO01
 #define USE_EP_SO2
 #define USE_O3_GAS_SENSOR
-
+#define USE_XSNS_EPNO201
 #endif
 
 // -- I2C sensors ---------------------------------
