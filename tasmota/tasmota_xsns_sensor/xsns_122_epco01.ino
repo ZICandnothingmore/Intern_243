@@ -2,7 +2,7 @@
 #ifdef USE_XSNS_EPCO01
 
 #define XSNS_122 122
-#define XRS485_40 40
+#define XRS485_33 33
 
 struct EPCO01t
 {
@@ -111,7 +111,7 @@ void EPCO01Show(bool json)
 
 bool Xsns122(uint32_t function)
 {
-    if (!Rs485Enabled(XRS485_40))
+    if (!Rs485Enabled(XRS485_33))
     {
         return false;
     }

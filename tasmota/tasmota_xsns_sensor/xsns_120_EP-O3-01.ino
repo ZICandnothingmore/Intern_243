@@ -1,8 +1,8 @@
 #ifdef USE_RS485
 #ifdef USE_O3_GAS_SENSOR
 
-#define XSNS_124 124  // ID module tùy chỉnh
-#define XRS485_30 30
+#define XSNS_120 120  // ID module tùy chỉnh
+#define XRS485_31 31
 
 struct O3Sensor_t
 {
@@ -115,9 +115,9 @@ void O3Show(bool json)
 #endif
 }
 
-bool Xsns124(uint32_t function)
+bool Xsns120(uint32_t function)
 {
-    if (!Rs485Enabled(XRS485_30))
+    if (!Rs485Enabled(XRS485_31))
         return false;
 
     bool result = false;

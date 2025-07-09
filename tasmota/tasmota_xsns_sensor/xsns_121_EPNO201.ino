@@ -2,7 +2,7 @@
 #ifdef USE_XSNS_EPNO201
 
 #define XSNS_EPNO201 121 
-#define XRS485_39 39
+#define XRS485_32 32
 // This code is for the EPNO201 temperature sensor using Modbus over RS485
 
 struct EPNO201t
@@ -113,7 +113,7 @@ void EPNO201Show(bool json)
 
 bool Xsns121(uint32_t function)
 {
-    if (!Rs485Enabled(XRS485_39))
+    if (!Rs485Enabled(XRS485_32))
     {
         return false;
     }

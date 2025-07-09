@@ -4,14 +4,14 @@
 #define XSNS_118    118
 #define XRS485_30   30
 
-struct EP_SO2t
+struct EP_SO2_t
 {
     bool valid = false;
     uint16_t temperature = 0.0;
     char name[7] = "EP_SO2";
 } EP_SO2;
 
-#define EP_SO2_ADDRESS_ID       0x21
+#define EP_SO2_ADDRESS_ID       0x01
 #define EP_SO2_ADDRESS_VALUE    0x0006
 #define EP_SO2_FUNCTION_CODE    0x03
 #define EP_SO2_ADDRESS_CHECK    0x0100
